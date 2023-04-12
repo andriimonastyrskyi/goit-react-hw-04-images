@@ -34,6 +34,7 @@ export const Searchbar = ({ onSubmit }) => {
             autoFocus
             placeholder="Search images and photos"
             onChange={onSearch}
+            value={inputValue}
           />
         </SearchForm>
       </SearchHeader>
